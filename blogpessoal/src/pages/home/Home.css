@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.titulo{
+    color: blueviolet;
+    text-align: center;
+}
+
+.body{
+    background-image: linear-gradient(to right top, #051937, #1e255a, #462c7a, #772b92, #ae17a1);
+    height: 100vh;
+    margin: 0;
+}
+
+.img{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
