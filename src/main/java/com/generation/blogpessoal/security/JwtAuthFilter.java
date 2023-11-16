@@ -64,7 +64,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 					SecurityContextHolder.getContext().setAuthentication(authToken);
 				}
 			}
-			//Compartilha a informação do nosso token para o restante do código. e o catch é as tratativa de erro.
+			//Compartilha a informação do nosso token para o restante do código, e o catch é as tratativa de erro.
 			
 			filterChain.doFilter(request, response);
 			
